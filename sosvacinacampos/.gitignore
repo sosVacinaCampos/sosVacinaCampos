@@ -32,3 +32,9 @@ yarn-error.log*
 
 # vercel
 .vercel
+
+# logs
+logs
+
+# wpp token
+vacina_campos.data.json

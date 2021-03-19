@@ -5,48 +5,57 @@ export default function Home() {
   return (
     <div className={styles.container}>
       <Head>
-        <title>Create Next App</title>
+        <title>SOS Vacina Campos</title>
+        <meta name="viewport" content="width=device-width, initial-scale=1" />
         <link rel="icon" href="/favicon.ico" />
       </Head>
 
       <main className={styles.main}>
         <h1 className={styles.title}>
-          Welcome to <a href="https://nextjs.org">Next.js!</a>
+          SOS Vacina
         </h1>
+        <img src="/campos.png" />
 
         <p className={styles.description}>
-          Get started by editing{' '}
-          <code className={styles.code}>pages/index.js</code>
+          Saiba aqui maiores informações sobre a vacinação
         </p>
 
-        <div className={styles.grid}>
-          <a href="https://nextjs.org/docs" className={styles.card}>
-            <h3>Documentation &rarr;</h3>
-            <p>Find in-depth information about Next.js features and API.</p>
-          </a>
+        <div class="table-responsive" className={styles.grid}>
+        <table class="table">
+          <thead>
+            <tr>
+              <th scope="col">Dia</th>
+              <th scope="col">Planejado</th>
+              <th scope="col">Vacinados</th>
+            </tr>
+          </thead>
+          <tbody>
+            <tr>
+              <th scope="row">Default</th>
+              <td>XXX</td>
+              <td>XXX</td>
+            </tr>
+            <tr class="table-success">
+              <th scope="row">Success</th>
+              <td>XXX</td>
+              <td>XXX</td>
+            </tr>
+            <tr class="table-danger">
+              <th scope="row">Danger</th>
+              <td>XXX</td>
+              <td>XXX</td>
+            </tr>
+            <tr class="table-warning">
+              <th scope="row">Warning</th>
+              <td>XXX</td>
+              <td>XXX</td>
+            </tr>   
+          </tbody>
+        </table>
 
-          <a href="https://nextjs.org/learn" className={styles.card}>
-            <h3>Learn &rarr;</h3>
-            <p>Learn about Next.js in an interactive course with quizzes!</p>
-          </a>
+          
 
-          <a
-            href="https://github.com/vercel/next.js/tree/master/examples"
-            className={styles.card}
-          >
-            <h3>Examples &rarr;</h3>
-            <p>Discover and deploy boilerplate example Next.js projects.</p>
-          </a>
-
-          <a
-            href="https://vercel.com/new?utm_source=create-next-app&utm_medium=default-template&utm_campaign=create-next-app"
-            className={styles.card}
-          >
-            <h3>Deploy &rarr;</h3>
-            <p>
-              Instantly deploy your Next.js site to a public URL with Vercel.
-            </p>
-          </a>
+         
         </div>
       </main>
 

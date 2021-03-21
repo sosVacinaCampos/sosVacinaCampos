@@ -1,5 +1,5 @@
 const { createServer } = require('http')
-const whatsapp = require('./configs/whatsapp')
+// const whatsapp = require('./configs/whatsapp')
 const next = require('next')
 
 const port = parseInt(process.env.PORT, 10) || 3000
@@ -20,7 +20,7 @@ app.prepare().then(() => {
         app.render(req, res, '/b', query)
         break;
       case '/api/whatsapp':
-        req.whatsapp = whatsapp
+        // req.whatsapp = whatsapp
         handle(req, res, parsedUrl)
         break;
       default:

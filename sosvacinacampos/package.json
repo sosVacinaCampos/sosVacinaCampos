@@ -11,8 +11,12 @@
     "child_process": false
   },
   "dependencies": {
+    "@firebase/app": "^0.6.17",
     "@open-wa/wa-automate": "^3.9.6",
+    "axios": "^0.21.1",
     "bootstrap": "^5.0.0-beta2",
+    "firebase": "^8.3.1",
+    "firebase-admin": "^9.5.0",
     "next": "10.0.9",
     "react": "17.0.1",
     "react-dom": "17.0.1"

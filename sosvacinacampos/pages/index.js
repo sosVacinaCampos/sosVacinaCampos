@@ -20,8 +20,8 @@ export default function Home() {
           Saiba aqui maiores informações sobre a vacinação
         </p>
 
-        <div class="table-responsive" className={styles.grid}>
-        <table class="table">
+        <div className={[styles.grid,'table-responsive']}>
+        <table className={'table'}>
           <thead>
             <tr>
               <th scope="col">Dia</th>
@@ -35,17 +35,17 @@ export default function Home() {
               <td>XXX</td>
               <td>XXX</td>
             </tr>
-            <tr class="table-success">
+            <tr className={'table-success'}>
               <th scope="row">Success</th>
               <td>XXX</td>
               <td>XXX</td>
             </tr>
-            <tr class="table-danger">
+            <tr className={'table-danger'}>
               <th scope="row">Danger</th>
               <td>XXX</td>
               <td>XXX</td>
             </tr>
-            <tr class="table-warning">
+            <tr className={'table-warning'}>
               <th scope="row">Warning</th>
               <td>XXX</td>
               <td>XXX</td>
